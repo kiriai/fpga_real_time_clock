@@ -1,0 +1,9 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 7b16e296b6584e1ba0c75f291d1799d9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot fpga_sim_func_impl xil_defaultlib.fpga_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3146] binding entity 'fpga_clock' does not have generic 'f_board' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sim_1/new/fpga_sim.vhd:40]
+ERROR: [VRFC 10-3146] binding entity 'fpga_clock' does not have generic 'f_flicker' [C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sim_1/new/fpga_sim.vhd:41]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date             : Sat Apr 24 02:53:38 2021
+| Date             : Tue Apr 27 15:29:58 2021
 | Host             : DESKTOP-800E6G0 running 64-bit major release  (build 9200)
 | Command          : report_power -file fpga_clock_power_routed.rpt -pb fpga_clock_power_summary_routed.pb -rpx fpga_clock_power_routed.rpx
 | Design           : fpga_clock
@@ -30,7 +30,7 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.105        |
+| Total On-Chip Power (W)  | 0.106        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 0.008        |
@@ -53,16 +53,15 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |      397 |       --- |             --- |
-|   LUT as Logic |    <0.001 |      153 |     63400 |            0.24 |
+| Slice Logic    |    <0.001 |      440 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      177 |     63400 |            0.28 |
 |   CARRY4       |    <0.001 |       27 |     15850 |            0.17 |
-|   Register     |    <0.001 |      149 |    126800 |            0.12 |
-|   F7/F8 Muxes  |    <0.001 |        1 |     63400 |           <0.01 |
-|   Others       |     0.000 |       26 |       --- |             --- |
-| Signals        |    <0.001 |      313 |       --- |             --- |
-| I/O            |     0.006 |       26 |       210 |           12.38 |
+|   Register     |    <0.001 |      147 |    126800 |            0.12 |
+|   Others       |     0.000 |       14 |       --- |             --- |
+| Signals        |    <0.001 |      376 |       --- |             --- |
+| I/O            |     0.006 |       27 |       210 |           12.86 |
 | Static Power   |     0.097 |          |           |                 |
-| Total          |     0.105 |          |           |                 |
+| Total          |     0.106 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 

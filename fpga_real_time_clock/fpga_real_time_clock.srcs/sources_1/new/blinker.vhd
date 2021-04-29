@@ -39,6 +39,7 @@ entity blinker is
     Port ( clk  : in std_logic;
            disp : in STD_LOGIC_VECTOR (1 downto 0);
            en   : in std_logic;
+           rst  : in std_logic;
            data_in : in STD_LOGIC_VECTOR (31 downto 0);
            data_out : out STD_LOGIC_VECTOR (31 downto 0));
 end blinker;
@@ -73,7 +74,7 @@ begin
 -- clock divider
 CLKDIV : modulo_counter
 generic map(n_bits => hz_bits, n_max => f_refresh)
-port map   (clk => clk, ce => '1', reset => '0', max => clk_div_max, output => clk_div_tmp);
+port map   (clk => clk, ce => '1', reset => rst, max => clk_div_max, output => clk_div_tmp);
 
 -- assign the max of clock to clock enable
 ce <= clk_div_max;
@@ -81,7 +82,9 @@ ce <= clk_div_max;
 -- register
 process(clk)
 begin
-    if(clk'event and clk='1')then
+    if(rst='1')then
+        r_reg <= '0';
+    elsif(clk'event and clk='1')then
         if(ce='1')then
             r_reg <= r_next;
         end if;

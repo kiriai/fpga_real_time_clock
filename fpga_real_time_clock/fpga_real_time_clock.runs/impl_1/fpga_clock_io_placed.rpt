@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date                      : Sat Apr 24 02:53:12 2021
+| Date                      : Tue Apr 27 15:29:32 2021
 | Host                      : DESKTOP-800E6G0 running 64-bit major release  (build 9200)
 | Command                   : report_io -file fpga_clock_io_placed.rpt
 | Design                    : fpga_clock
@@ -25,7 +25,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|            26 |
+|            27 |
 +---------------+
 
 
@@ -193,7 +193,7 @@ Table of Contents
 | J12        |             |            | GND                          | GND         |             |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | J13        | led[2]      | High Range | IO_L17N_T2_A25_15            | OUTPUT      | LVCMOS33    |      15 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | J14        | anodes[3]   | High Range | IO_L19P_T3_A22_15            | OUTPUT      | LVCMOS33    |      15 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
-| J15        |             | High Range | IO_L24N_T3_RS0_15            | User IO     |             |      15 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
+| J15        | reset       | High Range | IO_L24N_T3_RS0_15            | INPUT       | LVCMOS33    |      15 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | J16        |             |            | GND                          | GND         |             |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | J17        | anodes[0]   | High Range | IO_L23P_T3_FOE_B_15          | OUTPUT      | LVCMOS33    |      15 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | J18        | anodes[1]   | High Range | IO_L23N_T3_FWE_B_15          | OUTPUT      | LVCMOS33    |      15 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |

@@ -1,0 +1,6 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.sim/sim_1/impl/func/xsim/fpga_sim_func_impl.v,1619555522,verilog,,,,blinker;clock_counter;data_convert;fpga_clock;glbl;modulo_counter;modulo_counter__parameterized1;modulo_counter__parameterized3;move_toggle;move_toggle__parameterized1;move_toggle__parameterized1_0;move_toggle__parameterized3;move_toggle__parameterized5;passthrough_modulo_counter;passthrough_modulo_counter_1;passthrough_modulo_counter__parameterized2;passthrough_modulo_counter__parameterized2_2;passthrough_modulo_counter__parameterized4;passthrough_modulo_counter__parameterized6;setup_controller;seven_segment_driver;signal_toggle,,,,,,,,
+C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.srcs/sim_1/new/fpga_sim.vhd,1619554973,vhdl,,,,fpga_sim,,,,,,,,

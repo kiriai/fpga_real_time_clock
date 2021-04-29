@@ -36,6 +36,7 @@ use work.math_real.all;
 entity setup_controller is
     Port ( clk : in STD_LOGIC;
            btn : in STD_LOGIC_vector (4 downto 0);
+           rst : in std_logic;
            pass : out std_logic;
            sec_out : out STD_LOGIC_VECTOR (5 downto 0);
            min_out : out STD_LOGIC_VECTOR (5 downto 0);
@@ -125,7 +126,7 @@ base_val <= (others => '0');
 hz_max_ext <= (others => hz_max_out);
 
 -- temporary constant signals for testing only
-reset <= '0';
+reset <= rst;
 
 -- signal toggle
 SGTG : signal_toggle

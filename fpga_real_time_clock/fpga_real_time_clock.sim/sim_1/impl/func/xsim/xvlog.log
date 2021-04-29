@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tsope/Documents/GitHub/fpga_real_time_clock/fpga_real_time_clock/fpga_real_time_clock.sim/sim_1/impl/func/xsim/fpga_sim_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blinker
+INFO: [VRFC 10-311] analyzing module clock_counter
+INFO: [VRFC 10-311] analyzing module data_convert
+INFO: [VRFC 10-311] analyzing module fpga_clock
+INFO: [VRFC 10-311] analyzing module modulo_counter
+INFO: [VRFC 10-311] analyzing module modulo_counter__parameterized1
+INFO: [VRFC 10-311] analyzing module modulo_counter__parameterized3
+INFO: [VRFC 10-311] analyzing module move_toggle
+INFO: [VRFC 10-311] analyzing module move_toggle__parameterized1
+INFO: [VRFC 10-311] analyzing module move_toggle__parameterized1_0
+INFO: [VRFC 10-311] analyzing module move_toggle__parameterized3
+INFO: [VRFC 10-311] analyzing module move_toggle__parameterized5
+INFO: [VRFC 10-311] analyzing module passthrough_modulo_counter
+INFO: [VRFC 10-311] analyzing module passthrough_modulo_counter_1
+INFO: [VRFC 10-311] analyzing module passthrough_modulo_counter__parameterized2
+INFO: [VRFC 10-311] analyzing module passthrough_modulo_counter__parameterized2_2
+INFO: [VRFC 10-311] analyzing module passthrough_modulo_counter__parameterized4
+INFO: [VRFC 10-311] analyzing module passthrough_modulo_counter__parameterized6
+INFO: [VRFC 10-311] analyzing module setup_controller
+INFO: [VRFC 10-311] analyzing module seven_segment_driver
+INFO: [VRFC 10-311] analyzing module signal_toggle
+INFO: [VRFC 10-311] analyzing module glbl
